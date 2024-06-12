@@ -35,10 +35,7 @@ This project uses multiple pre-trained models from Hugging Face for emotion reco
 -  SamLowe/roberta-base-go_emotions
 -   oeddav/distilbert-base-uncased-go-emotions-student
 -  bhadresh-savani/distilbert-base-uncased-emotion *Text Summarisation Models* 
-- BART was Chosen for its proficiency in generating accurate and coherent summaries   
--  Known for effective summarization of complex and lengthy texts.
--   Adapts well to various text types and summarization needs.
--    Easily integrates with Hugging Face's Transformers library
+y
 
 
 3. **Preprocess the data:**
@@ -55,7 +52,10 @@ This project uses multiple pre-trained models from Hugging Face for emotion reco
   
 **Text Summarisation Models**
   - Bart has been used
-  - 
+  - BART was Chosen for its proficiency in generating accurate and coherent summaries   
+-  Known for effective summarization of complex and lengthy texts.
+-   Adapts well to various text types and summarization needs.
+-    Easily integrates with Hugging Face's Transformers librar
 4.**Results**
     Qualitative comparison and human evaluation to select goodperforming models.
     then we fine-tuned 2 models to get the one wih maximum accuracy.
