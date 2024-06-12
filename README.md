@@ -7,11 +7,8 @@ This project implements an emotion recognition system designed for PsychAssist, 
 
 ## Table of Contents
 - [Installation](#installation)
-- [Data Preprocessing](#data-preprocessing)
+- [OMP8420_MajorProject_Psychassist ](#OMP8420_MajorProject_Psychassist )
 - [Model Selection](#model-selection)
-- [Training and Evaluation](#training-and-evaluation)
-- [Results](#results)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -27,16 +24,15 @@ To set up this project, follow these steps:
 3. **Install the required packages:**
    
 
-## Data Preprocessing
+## Jupyter file - COMP8420_MajorProject_Psychassist 
 1. **Load the dataset:**
     Ensure your dataset is in the same directory as your script, named `mentalhealth_data.csv`.
 
 2. **Preprocess the data:**
     Clean and preprocess the text data by removing special characters, stopwords, and performing lemmatization. Generate sentiment labels using the VADER sentiment analyzer. Shown in the notebook.
 
-
-## Model Selection
-This project uses multiple pre-trained models from Hugging Face for emotion recognition and for text summarisation:
+3. Model Selection
+   This project uses multiple pre-trained models from Hugging Face for emotion recognition and for text summarisation:
 
  **Emotion-Specific Models:**
     - `j-hartmann/emotion-english-distilroberta-base`
@@ -47,7 +43,10 @@ This project uses multiple pre-trained models from Hugging Face for emotion reco
 **Text Summarisation Models**
   - Bart has been used
   - 
-
+4.**Results**
+    Qualitative comparison and human evaluation to select goodperforming models.
+    then we fine-tuned 2 models to get the one wih maximum accuracy.
+    
 
 
 ## Contributing
