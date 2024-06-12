@@ -28,10 +28,17 @@ To set up this project, follow these steps:
 1. **Load the dataset:**
     Ensure your dataset is in the same directory as your script, named `mentalhealth_data.csv`.
 
-2. **Preprocess the data:**
+## Model Selection This project uses multiple pre-trained models from Hugging Face for emotion recognition and for text summarisation: *Emotion-Specific Models:* - j-hartmann/emotion-english-distilroberta-base - SamLowe/roberta-base-go_emotions - joeddav/distilbert-base-uncased-go-emotions-student - bhadresh-savani/distilbert-base-uncased-emotion *Text Summarisation Models* 
+- BART was Chosen for its proficiency in generating accurate and coherent summaries   
+-  Known for effective summarization of complex and lengthy texts.
+-   Adapts well to various text types and summarization needs.
+-    Easily integrates with Hugging Face's Transformers library
+
+
+3. **Preprocess the data:**
     Clean and preprocess the text data by removing special characters, stopwords, and performing lemmatization. Generate sentiment labels using the VADER sentiment analyzer. Shown in the notebook.
 
-3. Model Selection
+4. Model Selection
    This project uses multiple pre-trained models from Hugging Face for emotion recognition and for text summarisation:
 
  **Emotion-Specific Models:**
