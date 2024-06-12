@@ -7,7 +7,7 @@ This project implements an emotion recognition system designed for PsychAssist, 
 
 ## Table of Contents
 - [Installation](#installation)
-- [OMP8420_MajorProject_Psychassist ](#COMP8420_MajorProject_Psychassist )
+- [COMP8420_MajorProject_Psychassist ](#COMP8420_MajorProject_Psychassist )
 - [Model Selection](#model-selection)
 - [Contributing](#contributing)
 - [License](#license)
